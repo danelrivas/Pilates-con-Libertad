@@ -70,3 +70,24 @@ document.addEventListener('DOMContentLoaded', () => {
     contador.classList.remove('naranja', 'rojo'); // quita colores si estaban
   });
 });
+
+// Menu hamburguesa
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburger = document.getElementById('hamburger');
+  const navMenu = document.getElementById('navMenu');
+
+  hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+  });
+});
+
+// Redes sociales toggle
+document.addEventListener('DOMContentLoaded', () => {
+  const toggleRedes = document.getElementById('toggleRedes');
+  const barraRedes = document.getElementById('barraRedes');
+
+  toggleRedes.addEventListener('click', () => {
+    barraRedes.classList.toggle('active');
+  });
+});
+
