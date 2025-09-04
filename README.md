@@ -28,7 +28,7 @@ El proyecto está pensado para mostrar la información de manera clara, sencilla
 ---
 
 ## 📂 Estructura del proyecto
-├── index.html
+├── index.html<br>
 ├── styles.css
 ├── script.js
 └── assets/
