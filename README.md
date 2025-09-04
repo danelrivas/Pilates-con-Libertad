@@ -32,11 +32,11 @@ El proyecto está pensado para mostrar la información de manera clara, sencilla
 ├── styles.css<br>
 ├── script.js<br>
 └── assets/<br>
-  ├── pilates.svg<br>
-  ├── clases1.jpeg<br>
-  ├── ...<br>
-  ├── instagram.png<br>
-  ├── ...<br>
+├────── pilates.svg<br>
+├────── clases1.jpeg<br>
+├────── ...<br>
+├────── instagram.png<br>
+├────── ...<br>
 
 ---
 
