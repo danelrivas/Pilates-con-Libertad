@@ -29,14 +29,14 @@ El proyecto está pensado para mostrar la información de manera clara, sencilla
 
 ## 📂 Estructura del proyecto
 ├── index.html<br>
-├── styles.css
-├── script.js
-└── assets/
-  ├── pilates.svg
-  ├── clases1.jpeg
-  ├── ...
-  ├── instagram.png
-  ├── ...
+├── styles.css<br>
+├── script.js<br>
+└── assets/<br>
+  ├── pilates.svg<br>
+  ├── clases1.jpeg<br>
+  ├── ...<br>
+  ├── instagram.png<br>
+  ├── ...<br>
 
 ---
 
