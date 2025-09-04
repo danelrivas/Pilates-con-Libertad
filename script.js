@@ -91,3 +91,11 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+//Barra lateral
+const toggle = document.querySelector('.red-toggle');
+const barra = document.querySelector('.barra-lateral');
+
+toggle.addEventListener('click', () => {
+  barra.classList.toggle('active');
+});
+
