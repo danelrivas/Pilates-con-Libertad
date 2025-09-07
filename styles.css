@@ -465,6 +465,68 @@ nav a:hover {
 }
 
 
+/* =========================================================
+   CONTACTO - Botón Instagram y WhatsApp
+========================================================= */
+.cta-instagram, .cta-whatsapp {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.btn-ig, .btn-wh {
+  display: inline-flex;
+  align-items: center;
+  gap: .6rem;
+  padding: 1rem 1.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform .2s ease, opacity .2s ease;
+  font-family: var(--font-main);
+}
+
+.btn-ig {
+  background: #000;
+  color: #fff;
+}
+
+.btn-wh {
+  background: #25d366;
+  color: #fff;
+}
+
+.btn-ig img, .btn-wh img {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-ig:hover, .btn-wh:hover {
+  transform: translateY(-2px);
+  opacity: .9;
+}
+
+/* Formulario secundario (plegable) */
+.formulario-toggle summary {
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 1rem;
+  list-style: none;
+}
+
+.formulario-toggle summary::-webkit-details-marker {
+  display: none; /* quita el triángulo feo */
+}
+
+.aqui {
+  color: blue;
+}
+
+.botones {
+  display: flex;
+  gap: 20px;
+}
+
+
 
 /* =========================================================
    FOOTER

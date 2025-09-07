@@ -34,8 +34,9 @@
     <button class="hamburger" id="hamburger">☰</button>
     
     <nav id="navMenu">
-      <a href="#clases">Clases</a>
       <a href="#sobremi">Sobre mí</a>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#clases">Clases</a>
       <a href="#contacto">Contacto</a>
     </nav>
   </header>
@@ -57,6 +58,41 @@
     </div>
   </section>
 
+
+  <!-- =========================================================
+       SOBRE MÍ
+  ========================================================= -->
+  <section id="sobremi" class="container sobre-mi">
+    <div>
+      <h2>Sobre mí</h2>
+      <p>
+        Soy <span class="nombre">Libertad</span>, instructora de pilates. Para mí, el pilates no es solo ejercicio, sino un estilo de vida que ayuda a mejorar la postura, aliviar tensiones y equilibrar cuerpo y mente.
+      </p>
+      <br>
+      <p>
+        Tengo formación en Pilates MAT, Reformer y Tower-Cadillac, además de especializaciones en embarazo, respiración y técnicas avanzadas. Trabajo con personas de perfiles muy variados, adaptando cada clase a sus necesidades.
+      </p>
+      <br>
+      <p>
+        Mi objetivo es que descubras cómo el movimiento consciente puede transformar tu bienestar.
+      </p>
+    </div>
+    <img src="assets/libi.jpg" alt="Instructora de pilates">
+  </section>
+
+  <hr>
+
+  <!-- =========================================================
+       BENEFICIOS
+  ========================================================= -->
+
+  <section id="beneficios" class="beneficios container">
+    <h2>Beneficios del pilates</h2>
+    <p>El pilates combina fuerza y flexibilidad para tonificar, mejorar la postura y equilibrar cuerpo y mente. 
+    Previene lesiones, impulsa el rendimiento deportivo y es eficaz en rehabilitación.</p>
+  </section>
+
+  <hr>
 
   <!-- =========================================================
        CLASES
@@ -89,7 +125,7 @@
         </article>
         <article>
           <h4>Colegio</h4>
-          <p>Trabajo con jóvenes, enfoque de movilidad, concentración y cuerpo en desarrollo</p>
+          <p>Trabajo con adultos, ayudándoles a mejorar la postura, liberar tensiones y ganar energía para su día a día.</p>
         </article>
         <article>
           <h4>Personalizadas</h4>
@@ -122,28 +158,7 @@
   <hr>
 
 
-  <!-- =========================================================
-       SOBRE MÍ
-  ========================================================= -->
-  <section id="sobremi" class="container sobre-mi">
-    <div>
-      <h2>Sobre mí</h2>
-      <p>
-        Soy <span class="nombre">Libertad</span>, instructora de pilates. Para mí, el pilates no es solo ejercicio, sino un estilo de vida que ayuda a mejorar la postura, aliviar tensiones y equilibrar cuerpo y mente.
-      </p>
-      <br>
-      <p>
-        Tengo formación en Pilates MAT, Reformer y Tower-Cadillac, además de especializaciones en embarazo, respiración y técnicas avanzadas. Trabajo con personas de perfiles muy variados, adaptando cada clase a sus necesidades.
-      </p>
-      <br>
-      <p>
-        Mi objetivo es que descubras cómo el movimiento consciente puede transformar tu bienestar.
-      </p>
-    </div>
-    <img src="assets/libi.jpg" alt="Instructora de pilates">
-  </section>
 
-  <hr>
 
 
   <!-- =========================================================
@@ -151,10 +166,33 @@
   ========================================================= -->
   <section id="contacto" class="container contacto">
     <h2>Contacto</h2>
-    <div class="contact-wrapper">
-      
-      <!-- Formulario -->
+    <p class="intro-contacto">
+      La forma más fácil de seguir mis clases, novedades y escribirme es a través de 
+      <strong>Instagram</strong>.  
+    </p>
+
+    <div class="botones">
+      <!-- BOTÓN INSTAGRAM PRINCIPAL -->
+      <div class="cta-instagram">
+        <a href="https://www.instagram.com/pilatesconlibertad" target="_blank" class="btn-ig">
+          <img src="assets/instagramb.png" alt="Instagram"> Sígueme en Instagram
+        </a>
+      </div>
+
+      <!-- Opcional: WhatsApp -->
+      <div class="cta-whatsapp">
+        <a href="https://wa.me/34606069573" target="_blank" class="btn-wh">
+          <img src="assets/whatsapp.png" alt="WhatsApp"> Escríbeme por WhatsApp
+        </a>
+      </div>
+    </div>
+
+
+    <!-- FORMULARIO MÁS PEQUEÑO/SECUNDARIO -->
+    <details class="formulario-toggle">
+      <summary>O si lo prefieres, envíame un mensaje directo <span class="aqui">aquí</span>.</summary>
       <form action="https://formspree.io/f/xwpnwbbl" method="POST" class="contact-form">
+        <br>
         <label for="nombre">Nombre</label>
         <input type="text" id="nombre" name="nombre" maxlength="50" required>
 
@@ -162,43 +200,23 @@
         <input type="email" id="email" name="email" maxlength="100" required>
 
         <label for="mensaje">Mensaje</label>
-        <textarea id="mensaje" name="mensaje" rows="5" required class="mensaje" maxlength="500"></textarea>
-        <div class="contador" id="contador">0/500</div>
+        <textarea id="mensaje" name="mensaje" rows="5" maxlength="500" required></textarea>
 
-        <div class="botones">
-          <button type="submit" class="btn">Enviar mensaje</button>
-          <button type="button" id="resetBtn" class="btn">Limpiar</button>
+        <div class="botones"> 
+          <button type="submit" class="btn">Enviar mensaje</button> 
+          <button type="button" id="resetBtn" class="btn">Limpiar</button> 
         </div>
       </form>
-
-      <!-- Mapa + Horarios -->
-      <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.524635321767!2d-2.6509580999999995!3d42.853564299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4fc3ceb34e1d97%3A0x5e7492718cc9edeb!2sCl%C3%ADnica%20Maim%C3%BA%20Fisioterapia%20Avanzada%20y%20Readaptaci%C3%B3n!5e1!3m2!1ses!2ses!4v1756968624084!5m2!1ses!2ses"
-          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-        <div class="horarios">
-          <h3>Horarios</h3>
-          <ul>
-            <li>Lunes y Miércoles: 9:00 - 10:00 <b>|</b> 16:00 - 18:00 <b>|</b> 19:00 - 20:00</li>
-            <li>Martes y Jueves: 19:00 - 20:00</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <br>
-    <p class="extra-info">
-      También puedes escribirme o llamarme directamente mediante la barra del lado derecho 
-    </p>
+    </details>
   </section>
+
 
 
   <!-- =========================================================
        BARRA LATERAL DE CONTACTO
   ========================================================= -->
-  <div class="barra-lateral">
-    <button class="red-toggle">☰</button> <!-- toggle solo visible en móvil -->
+<!--   <div class="barra-lateral">
+    <button class="red-toggle">☰</button> 
     <a href="https://www.instagram.com/pilatesconlibertad?igsh=MTFqcGhkemNmYm8=" target="_blank" class="item-red">
       <img src="assets/instagram.png" alt="Instagram">
     </a>
@@ -208,7 +226,7 @@
     <a href="tel:+34 606 06 95 73" class="item-red">
       <img src="assets/tlfn.png" alt="Teléfono">
     </a>
-  </div>
+  </div> -->
 
 
 
