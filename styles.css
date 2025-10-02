@@ -206,6 +206,11 @@ nav a{
 }
 
 /* ============= SWIPER =============*/
+.swiper-section {
+  width: 100%;
+  padding: 2rem 0.5rem;
+}
+
 .swiper {
   width: 100%;
   height: 400px; /* altura base móvil */
