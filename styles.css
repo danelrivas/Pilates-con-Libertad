@@ -172,6 +172,34 @@ nav a{
 
 
 /* =========================================================
+   PRODUCTO DESTACADO
+========================================================= */
+.producto-destacado img {
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.producto-imagen {
+  justify-content: center;
+  display: flex;
+}
+
+.producto-texto {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.8rem;
+}
+
+.btn {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px,
+              rgba(0, 0, 0, 0.3) 0px 10px,
+              rgba(0, 0, 0, 0.2) 0px 15px,
+              rgba(0, 0, 0, 0.1) 0px 20px,
+              rgba(0, 0, 0, 0.05) 0px 25px;
+}
+
+/* =========================================================
    SOBRE MÍ
 ========================================================= */
 .sobre-mi {
@@ -377,6 +405,11 @@ nav a{
 
 /* Medida principal Tablet*/
 @media (min-width: 768px) {
+
+  .producto-texto {
+    font-size: 1rem;
+  }
+
   .swiper {
     height: 500px; /* altura base móvil */
   }
